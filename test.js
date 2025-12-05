@@ -8,7 +8,7 @@ const counts = {
 
 function question7(name) {
   counts[name]++;
-  console.log(`${name} が実行。実行回数: ${execCounts[name]}`);
+  console.log(`${name} が実行。実行回数: ${counts[name]}`);
 }
 //設問1 
   function question1() {
