@@ -1,0 +1,178 @@
+<!--テストコード作成-->
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <script src="test.js"></script>
+
+</head>
+<body>
+
+<!-- 設問1:入力と表示 -->
+   <tr>
+        <th>設問1:</th>
+        <th><br>
+        <input type="text" id="textbox" name="textbox" size="40"><br>
+        </th>
+    </tr>
+    
+    <p></p>
+    <button input type="submit" id="show"
+    onclick="question1()">表示
+    </button>
+    <div id="output"></div>
+    <p></p>
+    
+<!-- 設問2:背景色の変更-->
+<p></p>
+  <th>設問2:</th> 
+<button input type="submit" id="changecolor"
+  onclick="question2()">背景色を変更
+</button>
+<p></p>
+
+<!--設問3:ハイライトの切り替え-->
+<p></p>
+  <th>設問3:</th>    
+<style>
+.highlight {
+  background-color: yellow;
+}
+</style>
+<button input type="submit" id="highlight"
+  onclick="question3()">表示
+</button>
+<div id="output"></div>
+<p></p>
+<!--設問4:テーブルへの追加-->
+<p></p>
+    <tr>
+        <th>設問4:</th>
+        <style>
+    .box {
+      border: 1px solid #333;
+      width: 200px;
+      height: 40px;
+      margin: 5px;
+      text-align: center;
+      line-height: 40px;
+    }
+    .deletebtn {
+      margin-left: 10px;
+      display: none; 
+    }
+        </style>
+        <th><br>
+        <input type="text" id="textboxes" name="textboxes" size="40"><br>
+        </th>
+    </tr>
+    <p></p>
+  <button id="showbtn" onclick="question41()">表示</button>
+  <tr>
+  <div>
+    <div id="box1" class="box"></div>
+    <button id="del1" class="deletebtn" onclick="question42(1)">削除</button>
+  </div>
+  </tr>
+  <tr>
+  <div>
+    <div id="box2" class="box"></div>
+    <button id="del2" class="deletebtn" onclick="question42(2)">削除</button>
+  </div>
+  </tr>
+  <tr>
+  <div>
+    <div id="box3" class="box"></div>
+    <button id="del3" class="deletebtn" onclick="question42(3)">削除</button>
+  </div>
+  </tr>
+
+<!--設問5:削除機能-->
+<p></p>
+    <tr>
+        <th>設問5:</th>
+        <style>
+    .boxes {
+      border: 1px solid #333;
+      width: 200px;
+      height: 40px;
+      margin: 5px;
+      text-align: center;
+      line-height: 40px;
+    }
+    .deleteBtn {
+      margin-left: 10px;
+      display: none; 
+    }
+        </style>
+        <th><br>
+        <input type="text" id="textboxes2" name="textboxes2" size="40"><br>
+        </th>
+    </tr>
+    <p></p>
+  <button id="showBtn" onclick="question51()">表示</button>
+  <tr>
+  <div>
+    <div id="boxes1" class="boxes"></div>
+    <button id="delt1" class="deleteBtn" onclick="question52(1)">削除</button>
+  </div>
+  </tr>
+  <tr>
+  <div>
+    <div id="boxes2" class="boxes"></div>
+    <button id="delt2" class="deleteBtn" onclick="question52(2)">削除</button>
+  </div>
+  </tr>
+  <tr>
+  <div>
+    <div id="boxes3" class="boxes"></div>
+    <button id="delt3" class="deleteBtn" onclick="question52(3)">削除</button>
+  </div>
+  </tr>
+
+<!--設問6:テストデータ削除-->
+<p></p>
+    <tr>
+        <th>設問6:</th>
+        <style>
+    .boxess {
+      border: 1px solid #333;
+      width: 200px;
+      height: 40px;
+      margin: 5px;
+      text-align: center;
+      line-height: 40px;
+    }
+    .Deletebtn {
+      margin-left: 10px;
+      display: none; 
+    }
+        </style>
+        <th><br>
+        <input type="text" id="textboxes3" name="textboxes3" size="40"><br>
+        </th>
+    </tr>
+    <p></p>
+  <button id="Showbtn" onclick="question61()">表示</button>
+  <tr>
+  <div>
+    <div id="boxess1" class="boxess"></div>
+    <button id="deltt1" class="Deletebtn" onclick="question62(1)">削除</button>
+  </div>
+  </tr>
+  <tr>
+  <div>
+    <div id="boxess2" class="boxess"></div>
+    <button id="deltt2" class="Deletebtn" onclick="question62(2)">削除</button>
+  </div>
+  </tr>
+  <tr>
+  <div>
+    <div id="boxess3" class="boxess"></div>
+    <button id="deltt3" class="Deletebtn" onclick="question62(3)">削除</button>
+  </div>
+  </tr>
+</body>
+</html>
