@@ -1,3 +1,4 @@
+//設問７
 const counts = {
   question1: 0,
   question2: 0,
